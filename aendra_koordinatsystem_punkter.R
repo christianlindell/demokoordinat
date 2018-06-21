@@ -37,7 +37,8 @@ write_xlsx(dfadressSWEREF, path = "swereftest.xlsx")
 
 # Vill man lägga på information från shape-filen om vilken kommun,
 # tätort och län varje punkt ligger i kan man använda raster-paketets
-# extract()-funktion
+# extract()-funktion. Koden, inkl. fria shape-filer från lantmäteriet
+# kan laddas hem från https://github.com/christianlindell/demokoordinat
 
 path <- getwd()
 
